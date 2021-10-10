@@ -11,29 +11,39 @@ body {
   text-transform: uppercase;
   background-color: #f7f7f7;
 }
-h3 {
-  text-transform: uppercase;
-}
-.free {
-  color: #777;
-  font-size: 16px;
-}
 .price {
-  font-size: 18px;
+  font-size: 24px;
 }
-a:link {
+.shipping {
+  color: #777;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+.more-info:link,
+.more-info:visited {
   color: black;
 }
-a:hover {
+.more-info:hover,
+.more-info:active {
   text-decoration: none;
 }
-button {
-  background-color: white;
-  border: 0;
-  font-size: 18px;
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
 }
-button:hover {
-  background-color: black;
-  font-size: 18px;
-  color: white;
+.details-list {
+  list-style: square;
+}
+.add-cart {
+  background-color: #000;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: poiter;
+}
+.add-cart:hover {
+  background-color: #fff;
+  color: #000;
 }
