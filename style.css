@@ -68,3 +68,17 @@ body {
   background-color: #fff;
   color: #000;
 }
+article {
+  position: relative;
+}
+.sale {
+  position: absolute;
+  background-color: red;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+  font-weight: bold;
+  top: -20px;
+  left: -30px;
+}
