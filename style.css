@@ -31,8 +31,9 @@ body {
   margin-bottom: 20px;
   float: right;
 }
-.text {
+.product-description {
   margin-bottom: 10px;
+  clear: both;
 }
 
 .more-info:link,
@@ -110,4 +111,15 @@ article {
 }
 .color-brown {
   background-color: #885214;
+}
+.product-info {
+  width: 243px;
+  float: none;
+}
+.product-details {
+  width: 243px;
+  float: right;
+}
+.product-img {
+  float: left;
 }
